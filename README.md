@@ -7,8 +7,9 @@
 https://mirror-hk.koddos.net/CTAN/support/latexmk/latexmk.pdf
 
 ## My CV
-The CV template is based on [dcetin/Simple-CV] under MIT license and studied from [ccwang002/cv], with modifications below.\\
-I admired ccwang002's CV simplity style.\\
+The CV template is based on [dcetin/Simple-CV] under MIT license and studied from [ccwang002/cv], with modifications below.
+I admired ccwang002's CV simplity style.
+
 Style changes:
 - Remove Leadership and Resume related files, only keep the CV files.
 - Rename Projects to "Project & Creation"
@@ -17,13 +18,6 @@ Style changes:
 - Tested building both documents, command work. 
 
 [dcetin/Simple-CV]: https://github.com/dcetin/Simple-CV
-[ccwang002/cv]: https://github.com/ccwang002/cv
-
-
-## My Resume
-My resume is inspired from [sansquoi/PlushCV] under Apache License 2.0 and studied from [ccwang002/cv]
-
-[sansquoi/PlushCV]: https://github.com/sansquoi/PlushCV
 [ccwang002/cv]: https://github.com/ccwang002/cv
 
 
