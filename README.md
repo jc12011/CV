@@ -3,13 +3,16 @@
 
 [workflow-status]: https://github.com/jc12011/cv/actions
 
+## General Commands Manual
+https://mirror-hk.koddos.net/CTAN/support/latexmk/latexmk.pdf
 
 ## My CV
-The CV template is based on [dcetin/Simple-CV] under MIT license and studied from [ccwang002/cv], with modifications below.
-I admired ccwang002's CV simplity style.
+The CV template is based on [dcetin/Simple-CV] under MIT license and studied from [ccwang002/cv], with modifications below.\\
+I admired ccwang002's CV simplity style.\\
 Style changes:
 - Remove Leadership
 - Rename Projects to "Project & Creation"
+- Modified first page header's margin on the Contact Information
 - Added Configuration tour in Readme.md
 - Tested building both documents, command work. 
 
@@ -53,6 +56,7 @@ On macOS:
 ## Build
 
 Build only CV or Resume by LuaLaTex.
+
     latexmk -lualatex cv.tex
     latexmk -luatatex resume.tex
 
