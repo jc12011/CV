@@ -10,7 +10,7 @@ https://mirror-hk.koddos.net/CTAN/support/latexmk/latexmk.pdf
 The CV template is based on [dcetin/Simple-CV] under MIT license and studied from [ccwang002/cv], with modifications below.\\
 I admired ccwang002's CV simplity style.\\
 Style changes:
-- Remove Leadership
+- Remove Leadership and Resume related files, only keep the CV files.
 - Rename Projects to "Project & Creation"
 - Modified first page header's margin on the Contact Information
 - Added Configuration tour in Readme.md
@@ -38,7 +38,7 @@ Fonts in use are included in the repo:
 
 
 ## Configuration
-You can modify the subtitle and order in the personal_info.tex
+You can modify the subtitle and order in the cv.tex or resume.tex
 
 
 ## Installation
@@ -55,14 +55,9 @@ On macOS:
 
 ## Build
 
-Build only CV or Resume by LuaLaTex.
+Build only the CV by LuaLaTex.
 
     latexmk -lualatex cv.tex
-    latexmk -luatatex resume.tex
-
-Build both documents by LuaLaTeX.
-
-    latexmk -lualatex cv.tex resume.tex
 
 To clean up the intermediates build files:
 
