@@ -12,13 +12,11 @@ jobs:
       with:
         root_file: |
             cv.tex
-            resume.tex
         latexmk_use_lualatex: true
 
     - name: Check if the PDFs are generated
       run: |
         file cv.pdf | grep -q ' PDF '
-        file resume.pdf | grep -q ' PDF '
 
     - name: Upload the PDFs
       uses: actions/upload-artifact@v7
@@ -26,4 +24,3 @@ jobs:
         name: PDF
         path: |
             cv.pdf
-            resume.pdf
