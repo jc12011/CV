@@ -32,7 +32,7 @@ Fonts in use are included in the repo:
 
 
 ## Configuration
-You can modify the subtitle and order in the cv.tex or resume.tex
+You can modify the subtitle and order in the cv.tex
 
 
 ## Installation
