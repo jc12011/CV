@@ -10,6 +10,8 @@ https://mirror-hk.koddos.net/CTAN/support/latexmk/latexmk.pdf
 The CV tempplate is based on ## OFFICIAL PUBLIC OVERLEAF TEMPLATE - #data-science-tech-resume-template
 [Github Repo](https://github.com/TimmyChan/data-science-tech-resume-template)
 
+Style changes:
+- Added new page and changed Objective to Summary. 
 
 ## My CV
 The CV template is based on [dcetin/Simple-CV] under MIT license and studied from [ccwang002/cv], with modifications below.
