@@ -43,6 +43,13 @@ You can modify the subtitle and order in the cv.tex
 
 
 ## Installation
+On github CodeSpaces:
+    
+    sudo apt update
+    sudo apt install texlive-full
+
+and install the "LaTeX Workshop" Extension in visual studio code.
+
 On macOS:
 
     brew install basictex
